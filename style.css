@@ -160,3 +160,79 @@ body{
     background:#45C26B;
     border-radius:10px;
 }
+
+.recent-section{
+    margin-top:30px;
+    margin-bottom:100px; /* 下のナビと被らないように */
+}
+
+.recent-card{
+    background:#252A31;
+    border-radius:18px;
+    padding:20px;
+}
+
+.recent-date{
+    display:flex;
+    justify-content:space-between;
+    color:#45C26B;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.recent-detail p{
+    color:#E5E7EB;
+    margin:8px 0;
+    font-size:15px;
+}
+
+.bottom-nav{
+    position:fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:100%;
+    max-width:430px;
+    height:75px;
+    background:#252A31;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-top:1px solid #343B44;
+}
+
+.nav-item{
+    text-decoration:none;
+    color:#A0A7B5;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:13px;
+}
+
+.nav-item span{
+    font-size:22px;
+    margin-bottom:4px;
+}
+
+.active{
+    color:#45C26B;
+}
+
+.record-btn{
+    width:60px;
+    height:60px;
+    background:#45C26B;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-30px;
+    color:white;
+    font-size:34px;
+    box-shadow:0 5px 15px rgba(69,194,107,.35);
+}
+
+.record-btn small{
+    display:none;
+}
