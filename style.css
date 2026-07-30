@@ -236,3 +236,74 @@ body{
 .record-btn small{
     display:none;
 }
+
+.menu-page{
+    
+    padding:20px;
+    color:white;
+}
+
+.menu-header{
+    margin-bottom:30px;
+}
+
+.menu-header h2{
+    font-size:26px;
+    color: white;
+}
+
+.menu-card{
+    background:#252A31;
+    border-radius:18px;
+    padding:18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.menu-left{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.menu-icon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#45C26B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+}
+
+.menu-card h3{
+    color:#E5E7EB;
+    margin-bottom:6px;
+}
+
+.menu-card p{
+    color:#E5E7EB;
+    margin-bottom:4px;
+}
+
+.menu-card small{
+    color:#A0A7B5;
+}
+
+.arrow{
+    font-size:28px;
+    color:#A0A7B5;
+}
+
+.back-btn,
+.more-btn {
+    background:none;
+    border:none;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+    
+}
