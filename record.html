@@ -11,37 +11,67 @@
         <header class="header">
            <button class="back-btn">←</button>
 
-                <h2>胸の日</h2>
 
-                <button class="more-btn">⋮</button>
         </header>
     
-        <main class="menu-home">
+        <main class="record-page">
 
-            <div class="record-title">
-                <h2>ベンチプレス</h2>
-                <p>今日のトレーニングを記録</p>
+            <div class="record-header">
+                <h2>トレーニング記録</h2>
+                <p>今日のトレーニングを記録しましょう</p>
             </div>
 
-            <form class="record-form">
+            <section class="record-form">
 
-                <label>重量 (kg)</label>
-                <input type="number" placeholder="60">
+                <div class="input-group">
+                    <label>種目名</label>
+                    <input
+                        type="text"
+                        placeholder="例：ベンチプレス"
+                    >
+                </div>
 
-                <label>回数</label>
-                <input type="number" placeholder="10">
+                <div class="input-group">
+                    <label>重量</label>
 
-                <label>セット数</label>
-                <input type="number" placeholder="3">
+                    <div class="input-unit">
+                        <input
+                            type="number"
+                            placeholder="80"
+                        >
+                        <span>kg</span>
+                    </div>
+                </div>
 
-                <label>メモ</label>
-                <textarea placeholder="メモを入力"></textarea>
+                <div class="input-group">
+                    <label>回数</label>
 
-                <button type="submit">
+                    <div class="input-unit">
+                        <input
+                            type="number"
+                            placeholder="8"
+                        >
+                        <span>回</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>セット数</label>
+
+                    <div class="input-unit">
+                        <input
+                            type="number"
+                            placeholder="3"
+                        >
+                        <span>セット</span>
+                    </div>
+                </div>
+
+                <button class="recordBtn">
                     記録する
                 </button>
 
-            </form>
+            </section>
 
         </main>
 

@@ -488,3 +488,86 @@ body{
     border-radius:20px;
     font-size:14px;
 }
+
+.record-page{
+    padding:25px 20px 110px;
+    color:white;
+}
+
+.record-header{
+    margin-bottom:25px;
+}
+
+.record-header h2{
+    font-size:26px;
+    margin-bottom:8px;
+}
+
+.record-header p{
+    color:#A0A7B5;
+}
+
+.record-form{
+    background:#252A31;
+    padding:20px;
+    border-radius:18px;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.input-group > input,
+.input-unit{
+    width:100%;
+    box-sizing:border-box;
+    height:55px;
+    background:#1B1F24;
+    border:none;
+    border-radius:12px;
+    color:white;
+    font-size:17px;
+}
+
+.input-group > input{
+    padding:0 15px;
+    outline:none;
+}
+
+.input-unit{
+    display:flex;
+    align-items:center;
+    padding:0 15px;
+}
+
+.input-unit input{
+    flex:1;
+    height:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:17px;
+}
+
+.input-unit span{
+    color:#A0A7B5;
+}
+
+.recorBtn{
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:14px;
+    background:#45C26B;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+}
