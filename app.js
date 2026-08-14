@@ -22,5 +22,14 @@ if (recordBtn) {
         
         alert("トレーニングを記録しました！");
 
+        const recordResult = document.getElementById("recordResult");
+
+        recordResult.innerHTML = `
+            <div class="saved-record">
+                <h3>${exerciseName}</h3>
+                <p>${weight}kg × ${reps}回 × ${sets}セット</p>
+            </div>
+        `;
+
     });
 }
